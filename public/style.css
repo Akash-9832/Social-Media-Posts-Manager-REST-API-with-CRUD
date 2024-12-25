@@ -1,0 +1,59 @@
+h1{
+    color: maroon;
+}
+.post{
+    background-color: blanchedalmond;
+    position: relative;
+}
+.user{
+    font-style: italic;
+}
+.create-new-post{
+    background-color: rgb(72, 19, 122);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+}
+.create-new-post:hover {
+    cursor: pointer;
+}
+.details-info{
+    position: absolute;
+    right: 240px;
+    top: 40%;
+    background-color: rgb(120, 14, 108);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+.details-info:hover {
+    cursor: pointer;
+}
+.edit-info{
+    position: absolute;
+    right: 130px;
+    top: 40%;
+    background-color: rgb(120, 14, 108);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+.edit-info:hover {
+    cursor: pointer;
+}
+.delete-info{
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    background-color: rgb(234, 0, 0);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+.delete-info:hover {
+    cursor: pointer;
+}
